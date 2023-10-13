@@ -1,1 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/bwEfZG3u)
+This is **README** file
+
+**Task**
+1. Create the fundamental Markdown structure for your responsive website.
+2. Emphasize the utilization of proper Markdown semantics for each element.
+3. Develop the core content of your website, including headers, paragraphs, and images.
+4. Initialize a GitHub repository for your project and push your initial Markdown code into it.
