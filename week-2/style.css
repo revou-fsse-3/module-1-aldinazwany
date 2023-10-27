@@ -4,39 +4,51 @@ body {
   }
   
   section {
-    margin: 0 16px;
+    margin: 0 2px;
   }
   
   section.full-screen {
     margin: 0;
   }
+
+/* try hamburger menu using javascript (still testing)
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+  } */
   
   nav {
-    position: fixed;
-    background-color: whitesmoke;
+    position: static;
+    background-color: white;
     width: 100%;
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 60px;
     border-bottom: 0px solid black;
   }
   
   nav > ul {
     margin-left: auto;
-    margin-right: 16px;
+    margin-right: 18px;
   }
   
   nav > ul > li {
     display: inline-block;
   }
   
-  nav > span > img {
-    height: 32px;
-    width: auto;
+  span > img {
+    height: 30px;
+    width: 30px;
     padding: 8px;
   }
   
-  nav > span {
+  span {
     display: flex;
     align-items: center;
   }
@@ -53,7 +65,7 @@ body {
   }
   
   .relative-container {
-    position: relative;
+    position: fixed;
   }
   
   header h1 {
@@ -61,7 +73,7 @@ body {
   }
   
   header p {
-    margin: 10px;
+    margin: 0;
   }
   
   img {
@@ -70,6 +82,24 @@ body {
   
   h2 {
     text-align: center;
+  }
+
+  #Our-Courses .flex-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    grid-auto-rows: 240px 240px;
+  }
+
+  #Our-Courses .grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .grid-container #item-1 {
+    grid-column: 1/2 span;
+    grid-row: 1;
   }
 
   #section-video .flex-container{
@@ -87,23 +117,6 @@ body {
     width: auto;
   }
   
-  #class-photos .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 8px;
-    grid-auto-rows: 240px 240px 240px;
-  }
-  
-  #class-photos .grid-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .grid-container #item-1 {
-    grid-column: 1 / 2 span;
-    grid-row: 1;
-  }
   
   fieldset {
     margin: 16px 0;

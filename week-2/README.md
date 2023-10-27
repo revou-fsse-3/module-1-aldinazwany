@@ -1,6 +1,6 @@
 This is **README** file
 
-# My Landing Website - Honey Bee Club
+# My Landing Website - My Course
 
 **Task**
 1. Building a web page and try using correct semantics for each element
@@ -9,4 +9,4 @@ This is **README** file
 4. Centering element using Flex
 5. Creating a Sticky Nav Header
 
-Layout: https://main--eloquent-sorbet-2585aa.netlify.app/
+Layout: https://653be6c8ed92803a816a980b--joyful-lolly-7d0999.netlify.app/#
