@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Black White Club</title>
+    <!-- link css external-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="desktop">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+    </nav>
+    <header class="full-screen" id="header">
+        <h1>Honey Bee Club</h1>
+        <p>Everything you know about honey and the bees</p>
+        <!--<img src="assets/madu5.jpg" alt="madu5">-->
+      </header>
+    
+    <main>
+        <section id="honey-photos">
+            <h2>Honey Photos</h2>
+            <div class="grid-container">
+              <div id="item-1">
+                <img
+                  src="./assets/madu1.jpg"
+                  alt="madu screenshot1."
+                />
+              </div>
+              <div id="item-2">
+                <img
+                  src="./assets/madu2.jpg"
+                  alt="madu screenshot2"
+                />
+              </div>
+              <div id="item-3">
+                <img
+                  src="assets/madu3.jpg"   
+                  alt="madu screenshot3."
+                />
+              </div>
+              <div id="item-4">
+                <img
+                  src="assets/madu4.jpg"
+                  alt="madu screenshot4."
+                />
+            </div>
+          </section>
+
+          <section id="section-video">
+            <h2>Look on how amazing the world of bees!</h2>
+            <div class="flex-container">
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/K3oMN1a_pdg?si=5RZDzHj0bT82J7VF" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+            </div>
+          </section>
+
+          <section id="form-section">
+            <h2>Join our Honey Bee Lover Club!</h2>
+            <form action="#">
+              <fieldset>
+                <legend>Personal Data:</legend>
+                <div>
+                  <label for="fullName">Your Full Name:</label>
+                  <input id="fullName" type="text" required />
+                </div>
+    
+                <div>
+                  <label for="nohp">No Handphone:</label>
+                  <input id="nohp" type="number" required />
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" required />
+                  </div>
+    
+              </fieldset>
+              <fieldset>
+                <legend>Additional information:</legend>
+                <div>
+                  <p>How many times do you consume honey in a week?</p>
+                  <input
+                    id="Everyday"
+                    type="checkbox"
+                    name="personality"
+                    value="Everyday"
+                  />
+                  <label for="Everyday">Everyday</label>
+                  <input
+                    id="3-4x"
+                    type="checkbox"
+                    name="personality"
+                    value="3-4x"
+                  />
+                  <label for="3-4x">3-4x</label>
+                  <input
+                    id="1-2x"
+                    type="checkbox"
+                    name="personality"
+                    value="1-2x"
+                  />
+                  <label for="1-2x">1-2x</label>
+                </div>
+                <div>
+                  <p>Tell us why you love honey!</p>
+                  <textarea rows="3"></textarea>
+                </div>
+                <div>
+                  <p>Upload your favorite honey picture here:</p>
+                  <input
+                    type="file"
+                    id="photo"
+                    name="myHoneyPhoto"
+                    required
+                    accept="image/png, image/jpeg"
+                  />
+                </div>
+              </fieldset>
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+    
+
+    
+    </main>
+</body>
+</html>
